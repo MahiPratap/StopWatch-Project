@@ -9,22 +9,22 @@ body{
     color: cyan;
 }
 .digit{
-    font-size: 150px;
+    font-size: 12rem;
     font-weight: bold;
 }
 .txt{
-    font-size: 40px;
+    font-size: 4.5rem;
     font-weight: bold;
 }
 #btn-container{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .btn{
     border-radius: 30%;
-    padding: 15px 30px;
-    font-size: 15px;
-    margin: 0px 15px;
+    padding: 1rem 2rem;
+    font-size: 2.5rem;
+    margin: 0rem 1rem;
     color: white;
     border: 2px solid black;
     cursor: pointer;
@@ -39,4 +39,17 @@ background-color: rgb(201, 153, 245);
 
 #reset{
     background-color: red;
+}
+
+@media(max-width:1020px){
+    html{
+        font-size: 65%;
+    }
+}
+
+
+@media(max-width:768){
+    html{
+        font-size: 45%;
+    }
 }
